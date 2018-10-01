@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/BebasNeue/BebasNeue Regular.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/BebasNeue/BebasNeue Bold.otf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/BebasNeue/BebasNeue Light.otf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoBold';
+  src: url('../fonts/RobotoBold/RobotoBold.woff');
+  src: url('../fonts/RobotoBold/RobotoBold.woff'),
+    	 url('../fonts/RobotoBold/RobotoBold.eot'),
+    	 url('../fonts/RobotoBold/RobotoBold.ttf');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/RobotoRegular/RobotoRegular.eot');
+  src: url('../fonts/RobotoRegular/RobotoRegular.woff'),
+    	 url('../fonts/RobotoRegular/RobotoRegular.eot'),
+    	 url('../fonts/RobotoRegular/RobotoRegular.ttf');
+}

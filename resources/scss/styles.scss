@@ -1,0 +1,18 @@
+// BOOTSTRAP
+@import "fonts";
+@import '~bootstrap/scss/bootstrap';
+
+
+// BASE STYLES
+@import "variables";
+@import "base";
+@import "section";
+
+// COMPONENTS
+@import "components/_header.scss";
+@import "components/_footer.scss";
+@import "components/_menu.scss";
+
+// PAGES
+@import "pages/_index-page.scss";
+@import "pages/_press-center.scss";
