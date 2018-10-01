@@ -10913,6 +10913,12 @@ header .navigation .tool .menu-toggler.fixed {
   border-radius: 4px;
 }
 
+@media (max-width: 767.98px) {
+  header .navigation .tool .menu-toggler.fixed {
+    position: static;
+  }
+}
+
 header .navigation .tool .menu-toggler span {
   display: block;
   width: 80%;
@@ -11717,6 +11723,15 @@ footer .tool .menu-toggler span {
   background-image: url(/images/2018.png?4e4354ead4ac994c2313c4eb97395255);
   background-size: cover;
   background-position: 50% 50%;
+}
+
+@media (max-width: 767.98px) {
+  .event .wrapper-2018 .block-2018 {
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+  }
 }
 
 .event .service {

@@ -46,6 +46,12 @@
 			background-image: url('../img/2018.png');
 			background-size: cover;
 			background-position: 50% 50%;
+			@include media-breakpoint-down(sm) {
+				right: 0;
+				left: 0;
+				width: 100%;
+				display: none;
+			}
 		}
 		h1 {
 			// position: absolute;
