@@ -9,6 +9,8 @@
 
 define('LARAVEL_START', microtime(true));
 
+header("Access-Control-Allow-Origin: http://qazmeet.herokuapp.com");
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
