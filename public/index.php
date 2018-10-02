@@ -9,7 +9,11 @@
 
 define('LARAVEL_START', microtime(true));
 
-header("Access-Control-Allow-Origin: http://qazmeet.herokuapp.com");
+if ($_SERVER['REQUEST_METHOD'] == "OPTIONS") {
+    error_log('OPTIONS');
+} else {
+    error_log('NOT OPTIONS');
+}
 
 /*
 |--------------------------------------------------------------------------
