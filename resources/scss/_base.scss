@@ -39,6 +39,9 @@ input {
 input::placeholder {
 	color: inherit;
 }
+.container .row {
+	flex-direction: row;
+}
 
 .butn {
 	border: none;
