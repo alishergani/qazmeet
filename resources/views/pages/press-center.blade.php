@@ -11,13 +11,13 @@
 					</div>
 				</div>
 				<div class="row button-wrapper">
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-12">
 						<button class="tab-button active" data-name="ИНФОРМАЦИЯ ДЛЯ СМИ"></button>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-12">
 						<button class="tab-button" data-name="АКРЕДИТАЦИЯ СМИ"></button>
 					</div>
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-12">
 						<button class="tab-button" data-name="ФОТОБАНК"></button>
 					</div>
 				</div>

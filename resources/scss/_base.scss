@@ -42,7 +42,7 @@ input::placeholder {
 .container .row {
 	flex-direction: row;
 }
-
+.row:before, .row:after {display: none !important;}
 .butn {
 	border: none;
 	background-color: #e6c450;

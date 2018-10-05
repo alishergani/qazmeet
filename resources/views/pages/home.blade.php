@@ -169,7 +169,9 @@
 								<p class="title">Пленарное заседание Форума с участием Главы государства</p>
 							</div>
 						</div>
-						<button type="submit" class="more-butn butn"></button>
+						<a href="/programm">
+							<button class="more-butn butn"></button>
+						</a>
 					</div>
 				</div>
 				<div class="col-lg-6">
