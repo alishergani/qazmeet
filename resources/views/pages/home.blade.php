@@ -13,7 +13,7 @@
 						<h4 class="hero__info">астана, 16 ноября 2018 <br>Дворец Независимости</h4>
 					</div>
 					<div class="col-lg-5">
-						<form action="/" class="form">
+						<form action="" method="" class="form">
 							<h4 class="form__heading">принять участвие</h4>
 						  <ul class="nav nav-tabs" role="tablist">
 						    <li class="nav-item">
@@ -111,6 +111,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6">
+					<div class="y-border"></div>
 					<div class="event__video">
 						<div class="play-butn">
 							<i class="fa fa-play"></i>
@@ -364,24 +365,30 @@
 			<div class="row news">
 				<div class="col-lg-4">
 					<div class="item">
+						<div class="img"></div>
+						<div class="overlay"></div>
 						<h3 class="item__heading">информация для сми</h3>
-						<a href="press-center.html">
+						<a href="/press/info">
 							<button class="butn">подробнее</button>
 						</a>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="item">
+						<div class="img"></div>
+						<div class="overlay"></div>
 						<h3 class="item__heading">акредитация сми</h3>
-						<a href="press-center.html">
+						<a href="/press/credit">
 							<button class="butn">подробнее</button>
 						</a>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="item">
+						<div class="img"></div>
+						<div class="overlay"></div>
 						<h3 class="item__heading">Фотобанк</h3>
-						<a href="press-center.html">
+						<a href="/press/photobank">
 							<button class="butn">подробнее</button>
 						</a>
 					</div>
