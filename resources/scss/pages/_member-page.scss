@@ -1,0 +1,163 @@
+.single-member {
+	padding: 120px 0;
+	.member-ava {
+		position: relative;
+		height: 570px;
+		min-width: 570px;
+		max-width: 570px;
+		@include media-breakpoint-down(sm) {
+			height: 470px;
+			min-width: 100%;
+		}
+		.img {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			background-size: cover;
+			background-position: 50% 50%;
+		}
+		.offset-border{
+			position: absolute;
+			top: 30px;
+			left: -30px;
+			right: 30px;
+			bottom: -30px;
+			border: 4px solid #fce38a;
+			border-radius: 2px;
+			@include media-breakpoint-down(sm) {
+				top: -10px;
+				left: -10px;
+				right: -10px;
+				bottom: -10px;	
+			}
+
+		}
+	}
+	.member {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding-left: 90px;
+		@include media-breakpoint-down(sm) {
+			padding-left: 10px;
+		}
+		& ._name {
+			font-size: 72px;
+		  font-weight: bold;
+		  line-height: 1;
+		  padding-bottom: 30px;
+		  color: #2a2b30;
+		  position: relative;
+		  &:after {
+		  	display: block;
+		  	content: '';
+		  	bottom: 0;
+		  	left: 0;
+		  	height: 4px;
+		  	width: 20%;
+		  	background-color: #e6c966;
+		  }
+		  .specialty {
+		  	position: absolute;
+				top: -100%;
+				left: -100px;
+		  	text-transform: uppercase;
+		  	font-family: BebasNeue;
+			  font-size: 290px;
+			  font-weight: bold;
+			  color: #f2f2f2;
+			  z-index: -1;	
+			  @include media-breakpoint-down(sm) {
+			  	display: none;
+			  }
+		  }
+		}
+		& ._prof {
+			font-family: Roboto;
+		  font-size: 24px;
+		  line-height: 2.08;
+		  letter-spacing: -0.5px;
+		  text-align: left;
+		  color: #2a2b30;
+		}
+		& ._desc {
+			font-family: Roboto;
+		  font-size: 16px;
+		  font-weight: 300;
+		  line-height: 1.63;
+		  color: #2a2b30;
+		}
+	}
+	.about-member {
+		margin-top: 50px;
+		font-family: Roboto;
+		.title {
+			font-size: 24px;
+			line-height: 1.25;
+			margin-bottom: 15px;
+		}
+		.subtitle {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		.reasons {
+			.title {
+				font-size: 16px;
+				line-height: 1.5;
+				margin-bottom: 10px;
+			}
+			.reasons-list {
+				list-style: none;
+				padding-left: 25px;
+				.item {
+					font-size: 14px;
+				  font-weight: 300;
+				  line-height: 1.71;
+				  color: #1c1f26;
+				  position: relative;
+				  &:before {
+				  	content: '';
+				  	height: 1px;
+				  	width: 10px;
+				  	background-color: #000;
+				  	display: block;
+				  	position: absolute;
+				  	left: -20px;
+    				top: 12px;
+				  }
+				}
+			}
+		}
+		.video-block {
+			.quote {
+				margin: 20px 0;
+				.text {
+					font-size: 14px;
+					font-weight: 500;
+					font-style: italic;
+					line-height: 1.29;
+					color: #2d323d;
+					position: relative;
+					padding-left: 20px;
+					&:before {
+						content: '';
+						display: block;
+						width: 4px;
+						height: 100%;
+						background-color: #e6c966;
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+				}
+			}
+		}
+		.butn {
+			font-size: 16px;
+			padding: 10px 50px;
+		}
+	}
+}

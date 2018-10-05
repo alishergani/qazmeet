@@ -403,15 +403,18 @@
 			position: relative;
 			max-width: 390px;
 			height: 404px;
-			.img  {
-				position: absolute;
-				top: 0;
-				left: 0;
-				right: 0;
-				bottom: 0;
-				background-size: cover;
-				background-position: 50% 50%;
+			@include media-breakpoint-down(sm) {
+				max-width: 100%;
 			}
+			// .img  {
+			// 	position: absolute;
+			// 	top: 0;
+			// 	left: 0;
+			// 	right: 0;
+			// 	bottom: 0;
+			// 	background-size: cover;
+			// 	background-position: 50% 50%;
+			// }
 			.offset-border{
 				position: absolute;
 				top: 30px;

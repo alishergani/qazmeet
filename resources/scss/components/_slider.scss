@@ -1,0 +1,35 @@
+.slider {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	border: 3px solid #fff;
+	width: 350px;
+	height: 404px;
+	@include media-breakpoint-down(sm) {
+		width: 100%;
+	}
+	.butns {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: 1;
+	}
+	.list {
+		display: flex;
+		height: 404px;
+		.img {
+			height: 100%;
+			min-width: 350px;
+			max-width: 350px;
+			flex-grow: 1;
+			background-size: cover;
+			background-position: 50% 50%;
+			@include media-breakpoint-down(sm) {
+				min-width: 100%;
+			}
+		}
+	}
+}

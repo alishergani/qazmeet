@@ -15,4 +15,9 @@ Route::get('/', 'PagesController@home');
 
 Route::get('/press-center', 'PagesController@pressCenter');
 
+
 Route::get('/press-center/{id}', 'PagesController@pressCenterInner');
+
+Route::get('/member', 'PagesController@member');
+
+Route::get('/programm', 'PagesController@programm');

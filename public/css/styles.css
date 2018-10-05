@@ -10971,8 +10971,31 @@ header .hero__title {
 
 header .hero__info {
   font-size: 21px;
+  padding-left: 30px;
   color: #fff;
   font-family: 'Roboto';
+  text-transform: uppercase;
+  line-height: 1.7;
+  position: relative;
+}
+
+header .hero__info:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 4px;
+  height: 100%;
+  background-color: #e6c450;
+}
+
+@media (max-width: 767.98px) {
+  header .hero__info {
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 header .hero .scroll-down {
@@ -11227,6 +11250,7 @@ header .header-page__title {
   header .header-page__title {
     font-size: 40px;
     letter-spacing: 0px;
+    margin: 40px 0;
   }
 
   header .header-page__title > br {
@@ -11652,6 +11676,55 @@ footer .tool .menu-toggler span {
 @media (max-width: 767.98px) {
   .menu__list .item__title {
     font-size: 30px;
+  }
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  border: 3px solid #fff;
+  width: 350px;
+  height: 404px;
+}
+
+@media (max-width: 767.98px) {
+  .slider {
+    width: 100%;
+  }
+}
+
+.slider .butns {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.slider .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 404px;
+}
+
+.slider .list .img {
+  height: 100%;
+  min-width: 350px;
+  max-width: 350px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+@media (max-width: 767.98px) {
+  .slider .list .img {
+    min-width: 100%;
   }
 }
 
@@ -12161,14 +12234,10 @@ footer .tool .menu-toggler span {
   height: 404px;
 }
 
-.members .main-member__img .img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-size: cover;
-  background-position: 50% 50%;
+@media (max-width: 767.98px) {
+  .members .main-member__img {
+    max-width: 100%;
+  }
 }
 
 .members .main-member__img .offset-border {
@@ -12993,5 +13062,216 @@ footer .tool .menu-toggler span {
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: underline;
+}
+
+.single-member {
+  padding: 120px 0;
+}
+
+.single-member .member-ava {
+  position: relative;
+  height: 570px;
+  min-width: 570px;
+  max-width: 570px;
+}
+
+@media (max-width: 767.98px) {
+  .single-member .member-ava {
+    height: 470px;
+    min-width: 100%;
+  }
+}
+
+.single-member .member-ava .img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.single-member .member-ava .offset-border {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  right: 30px;
+  bottom: -30px;
+  border: 4px solid #fce38a;
+  border-radius: 2px;
+}
+
+@media (max-width: 767.98px) {
+  .single-member .member-ava .offset-border {
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+  }
+}
+
+.single-member .member {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 90px;
+}
+
+@media (max-width: 767.98px) {
+  .single-member .member {
+    padding-left: 10px;
+  }
+}
+
+.single-member .member ._name {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1;
+  padding-bottom: 30px;
+  color: #2a2b30;
+  position: relative;
+}
+
+.single-member .member ._name:after {
+  display: block;
+  content: '';
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 20%;
+  background-color: #e6c966;
+}
+
+.single-member .member ._name .specialty {
+  position: absolute;
+  top: -100%;
+  left: -100px;
+  text-transform: uppercase;
+  font-family: BebasNeue;
+  font-size: 290px;
+  font-weight: bold;
+  color: #f2f2f2;
+  z-index: -1;
+}
+
+@media (max-width: 767.98px) {
+  .single-member .member ._name .specialty {
+    display: none;
+  }
+}
+
+.single-member .member ._prof {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 2.08;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #2a2b30;
+}
+
+.single-member .member ._desc {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.63;
+  color: #2a2b30;
+}
+
+.single-member .about-member {
+  margin-top: 50px;
+  font-family: Roboto;
+}
+
+.single-member .about-member .title {
+  font-size: 24px;
+  line-height: 1.25;
+  margin-bottom: 15px;
+}
+
+.single-member .about-member .subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.single-member .about-member .reasons .title {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.single-member .about-member .reasons .reasons-list {
+  list-style: none;
+  padding-left: 25px;
+}
+
+.single-member .about-member .reasons .reasons-list .item {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.71;
+  color: #1c1f26;
+  position: relative;
+}
+
+.single-member .about-member .reasons .reasons-list .item:before {
+  content: '';
+  height: 1px;
+  width: 10px;
+  background-color: #000;
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: 12px;
+}
+
+.single-member .about-member .video-block .quote {
+  margin: 20px 0;
+}
+
+.single-member .about-member .video-block .quote .text {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1.29;
+  color: #2d323d;
+  position: relative;
+  padding-left: 20px;
+}
+
+.single-member .about-member .video-block .quote .text:before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 100%;
+  background-color: #e6c966;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.single-member .about-member .butn {
+  font-size: 16px;
+  padding: 10px 50px;
+}
+
+.programm-page {
+  padding: 100px 0px;
+}
+
+.programm-page .section__info .number-bg {
+  letter-spacing: -10px;
+  font-size: 221px;
+}
+
+.programm-page .list .card button {
+  outline: none;
 }
 

@@ -7,7 +7,7 @@
 
 require('./bootstrap');
 
-window.Vue = require('vue');
+// window.Vue = require('vue');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -51,3 +51,41 @@ $(window).on('scroll', function() {
   // -- Navgation scripts
   // -----------------------------------
 
+if ($('.slider').length) {
+  var list = $('.slider .list'),
+      sliderWidth = 350,
+      leftB = $('.slider .butns .left'),
+      rightB = $('.slider .butns .right');
+
+
+  function nextSlide() {
+    console.log(sliderWidth)
+    $('.slider .list').animate({
+      'margin-left':-sliderWidth
+    },500, function() {
+      $('.slider .list > .img:first-child').appendTo('.slider .list');
+      $('.slider .list').css('margin-left', 0);
+    });
+  }
+  //move slides backwards
+  function prevSlide() {
+    console.log(sliderWidth)
+    $('.slider .list').animate({
+      'margin-left':sliderWidth
+    },500, function() {
+      $('.slider .list>.img:last-child').prependTo('.slider .list');
+      $('.slider .list').css('margin-left', 0);
+    });
+  }
+
+
+  leftB.click( () => {
+    prevSlide()
+  })
+
+  rightB.click( () => {
+    nextSlide()
+  })
+
+
+}

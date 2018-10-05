@@ -275,7 +275,23 @@
 						<div class="col-lg-6">
 							<div class="main-member__img">
 								<div class="offset-border"></div>
-								<div class="img" style="background-image: url('images/member1.jpg')"></div>
+								<div class="slider">
+									<div class="butns">
+										<button class="butn left">
+											<i class="fas fa-arrow-left"></i>
+										</button>
+										<button class="butn right">
+											<i class="fas fa-arrow-right"></i>
+										</button>
+									</div>
+									<div class="list">
+										<div class="img" style="background-image: url('images/member1.jpg')"></div>
+										<div class="img" style="background-image: url('images/member2.jpg')"></div>
+										<div class="img" style="background-image: url('images/member3.jpg')"></div>
+										<div class="img" style="background-image: url('images/member2.jpg')"></div>
+									</div>
+								</div>
+
 							</div>
 						</div>
 						<div class="col-lg-6">
@@ -287,7 +303,7 @@
 									<li class="item">Спикер бизнес-форума Алматы</li>
 									<li class="item">Участник множества передач о агробизнесе</li>
 								</ul>
-								<a href="#members.html" class="more">Подробнее</a>
+								<a href="/member" class="more">Подробнее</a>
 							</div>
 						</div>
 					</div>
