@@ -26,7 +26,7 @@
 
 	<div class="programm-page">
 		<div class="container">
-			<div class="row">
+			<div class="row mob-rev">
 				<div class="col-lg-9">
 					<div class="section__info">
 						<div class="number-bg">Programm</div>
@@ -39,8 +39,10 @@
 						  <div class="card">
 						    <div class="card-header" id="headingOne">
 					        <button class="collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-					          <span class="time">08.00 - 09.00</span>
-					          <p class="title">Регистрация участников, утренний кофе-брейк</p>
+					        	<span class="inf">
+						          <span class="time">08.00 - 09.00</span>
+						          <p class="title">Регистрация участников, утренний кофе-брейк</p>
+					        	</span>
 					          <i class="fas fa-angle-down"></i>
 					        </button>
 						    </div>
@@ -61,8 +63,10 @@
 						  <div class="card">
 						    <div class="card-header" id="headingTwo">
 						      <button class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					          <span class="time">10.30 - 11.30</span>
-					          <p class="title">Демонстрация цифровых решений АПК</p>
+						      	<span class="inf">
+						          <span class="time">10.30 - 11.30</span>
+						          <p class="title">Демонстрация цифровых решений АПК</p>
+						      	</span>
 					          <i class="fas fa-angle-down"></i>
 					        </button>
 						    </div>
@@ -127,11 +131,12 @@
 						  <div class="card">
 						    <div class="card-header" id="headingTwo">
 						      <button class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					          <span class="time">10.30 - 11.30</span>
-					          <p class="title">Демонстрация цифровых решений АПК</p>
+						      	<span class="inf">
+						          <span class="time">10.30 - 11.30</span>
+						          <p class="title">Демонстрация цифровых решений АПК</p>
+						      	</span>
 					          <i class="fas fa-angle-down"></i>
-					        </button>
-						    </div>
+					        </button> </div>
 						    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 						      <div class="card-body">
 						      	<div class="item">
@@ -193,11 +198,12 @@
 						  <div class="card">
 						    <div class="card-header" id="headingTwo">
 						      <button class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					          <span class="time">10.30 - 11.30</span>
-					          <p class="title">Демонстрация цифровых решений АПК</p>
+						      	<span class="inf">
+						          <span class="time">10.30 - 11.30</span>
+						          <p class="title">Демонстрация цифровых решений АПК</p>
+						      	</span>
 					          <i class="fas fa-angle-down"></i>
-					        </button>
-						    </div>
+					        </button></div>
 						    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 						      <div class="card-body">
 						      	<div class="item">
